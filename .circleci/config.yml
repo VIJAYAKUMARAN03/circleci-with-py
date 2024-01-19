@@ -29,10 +29,10 @@ workflows:
   main:
     jobs:
       - check1
-      - hold
+      - hold:
           type: approval
           requires:
             - check1
-      - check2
+      - check1:
           requires:
             - hold
