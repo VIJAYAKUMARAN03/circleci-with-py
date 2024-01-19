@@ -33,6 +33,6 @@ workflows:
           type: approval
           requires:
             - check1
-      - check1:
+      - check2:
           requires:
             - hold
