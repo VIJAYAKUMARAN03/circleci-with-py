@@ -23,7 +23,7 @@ Create a CircleCI account and connect it with your Git account. Follow the promp
 - Link : https://circleci.com/vcs-authorize/
 
 ## Step 4: Configure Environment Variables
-Set the requried environment variables in CircleCI for the project.
+Set the requried environment variables in CircleCI for the project. In my case, the environment variable is ENV.
 - Note: Environment variable names are case-sensitive.
 - Refer : https://circleci.com/docs/set-environment-variable/
 
