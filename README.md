@@ -19,13 +19,13 @@ cd basic-aws-terraform-circleci
 Create a new repository in your Git hosting service to host your Terraform code.
 
 ## Step 3: Set up CircleCI
-Create a CircleCI account and connect it with your Git account. Follow the prompts to integrate your repository with CircleCI, which will be shown as a project.
-Link : https://circleci.com/vcs-authorize/
+Create a CircleCI account and connect it with your Git account. Follow the prompts to integrate your repository with CircleCI, which will be shown as a project. 
+- Link : https://circleci.com/vcs-authorize/
 
 ## Step 4: Configure Environment Variables
 Set the requried environment variables in CircleCI for the project.
-Note: Environment variable names are case-sensitive.
-Refer : https://circleci.com/docs/set-environment-variable/
+- Note: Environment variable names are case-sensitive.
+- Refer : https://circleci.com/docs/set-environment-variable/
 
 ## Step 5: Pull Repository Changes
 Pull the changes from your newly created repository.
