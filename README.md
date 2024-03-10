@@ -11,8 +11,13 @@ Follow the steps below to set up CircleCI and run a pipeline.
 Clone the repository containing the Terraform code to your local environment and set it as your local repository.
 
 ```bash
-git clone https://github.com/VIJAYAKUMARAN03/basic-aws-terraform-circleci.git
-cd basic-aws-terraform-circleci
+git clone https://github.com/VIJAYAKUMARAN03/circleci-with-py.git
+```
+
+Navigate to the cloned directory:
+
+```bash
+cd circleci-with-py
 ```
 
 ## Step 2 : Create a New Repository
@@ -40,9 +45,13 @@ git add .
 ```
 
 ## Step 7: Commit and Push Changes
-Commit your changes and push them to your repository.
+Commit your changes with appropriate commit message.
 ```bash
-git commit -m "Initial commit with Python files"
+git commit -m "Initial commit with Terraform files"
+```
+
+Push the commit to your repository.
+```bash
 git push origin main
 ```
 
